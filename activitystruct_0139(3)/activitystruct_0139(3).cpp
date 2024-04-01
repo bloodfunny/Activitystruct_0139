@@ -38,5 +38,9 @@ int main() {
 		cout << "Data Mahasiswa ke- ";
 		cout << "\n NIM : " << mhs[i].nim;
 		cout << "\n Nama : " << mhs[i].nama;
+		cout << "\n Alamat : ";
+		cout << "\t \n Desa : " << mhs[i].alamat.desa;
+		cout << "\t \n Kota : " << mhs[i].alamat.kota;
+
 	}
 }
